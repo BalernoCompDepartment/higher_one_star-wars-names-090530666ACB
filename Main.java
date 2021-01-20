@@ -14,10 +14,10 @@ class Main {
 
     String surnameThree = surname.substring(0,3);
 
-    String cityname = city.substring(0,3);
+    String cityname = city.substring(0,2).toLowerCase();
 
-    String mothername = mothersMaidenName.substring(0,2);
-String starwarsname = surnameThree + firstNameTwo + " " + cityname + mothername ;
+    String mothername = mothersMaidenName.substring(0,3);
+String starwarsname = surnameThree + firstNameTwo + " "  + mothername + cityname;
     
     //Step 5: starwarsname = first 3 letter of surname + first 2 letters of first name + " " + first 3 letters of motehrs maiden name + first 2 letters of town you **were born in
 
